@@ -26,11 +26,15 @@ var listaBici =
 
 var biciLeggera = listaBici [0];
 for (var i = 0; i < listaBici.length; i++){
-    var biciCorrente = bici[i];
+    var biciCorrente = listaBici[i];
 
     if (biciCorrente.peso < biciLeggera.peso) {
         biciLeggera = biciCorrente;
     }
 }
 
-console.log(biciLeggera);
+console.log(
+    `
+    ${biciLeggera}
+    `
+);
