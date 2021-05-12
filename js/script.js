@@ -35,6 +35,6 @@ for (var i = 0; i < listaBici.length; i++){
 
 console.log(
     `
-    ${biciLeggera}
+    ${biciLeggera.peso}
     `
 );
